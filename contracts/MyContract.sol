@@ -5,6 +5,11 @@ contract MyContract {
     uint public myUint = 1;
     uint256 public myUint256 = 138;
     uint8 public myUint8 = 3;
+
+    int public myInt = -20;
+    int256 public myInt256 = -138;
+    int8 public myInt8 = -3;
+
     function getValue() public pure returns (uint) {
         uint value = 1; // Local Variables
         return value;
